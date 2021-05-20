@@ -17,9 +17,9 @@ function Login() {
 
 
 
-    function handleLogin(eve) {
+    function handleLogin(event) {
         
-        eve.preventDefault()
+        event.preventDefault()
         
         if (username === user && password === pass) {
             setLogin(<Success user={user} />)
