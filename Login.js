@@ -36,13 +36,21 @@ function Login() {
         <div >
 
             <form onSubmit={handleLogin}>
+        
                 <div>
-                    <label><input id="username" type='text' placeholder="User Name" onChange={handle1}></input></label>
+                    <label>
+        <input id="username" type='text' placeholder="User Name" onChange={handle1}></input>
+                    </label>
                 </div>
-                <label><input id="password" type='passowrd' placeholder="Password" onChange={handle2}></input></label>
+
+                <label>
+            <input id="password" type='passowrd' placeholder="Password" onChange={handle2}></input>
+                </label>
+
                 <div>
                     <button>Log In</button>
                 </div>
+
                 <div>{Login}</div>
             </form>
         </div>
