@@ -41,7 +41,7 @@ function Login() {
                 </div>
                 <label><input id="password" type='passowrd' placeholder="Password" onChange={handle2}></input></label>
                 <div>
-                    <button id="btnL">Log In</button>
+                    <button>Log In</button>
                 </div>
                 <div>{Login}</div>
             </form>
