@@ -21,7 +21,7 @@ function Login() {
         
         event.preventDefault()
         
-        if (username === user && password === pass) {
+        if (username === user && pass === password) {
             setLogin(<Success user={user} />)
         } else {
             setLogin(<Fail />)
